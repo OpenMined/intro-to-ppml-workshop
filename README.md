@@ -31,7 +31,7 @@ working with sensitive data in domains like healthcare, finance, and government.
 - **Date**: Thursday, 14 November 2024
 - **Time**: 5 PM GMT / 6 PM CET / 12 PM EST / 9 AM PST
 - **Duration**: 1 hour
-- **Location**: Online (Information will be sent via email to registrants)
+- **Location**: Online (Information will be shared with attendees after registration)
 
 ## Agenda
 
