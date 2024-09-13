@@ -1,0 +1,94 @@
+/*redefine bs vars*/
+
+:root {
+    --bs-body-font-size: 1.3rem;
+    --bs-body-line-height: 1.6;
+    --bs-body-color: #fff;
+    --bs-code-color: #84f684;
+}
+
+* {
+    font-family: Rubik, serif;
+    font-weight: lighter;
+    color: var(--bs-body-color);
+}
+
+body {
+    background-color: #333333;
+}
+
+code, pre {
+    font-family: "Fira Code", monospace;
+}
+
+#intro {
+    /*margin-bottom: 120px;*/
+    background-color: #333333;
+    background-image: url("../imgs/om-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center ;
+
+}
+
+
+.head {
+    text-align: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.head .logo {
+    max-width: 220px;
+    margin: 12px auto;
+    padding-bottom: 25px;
+}
+
+.head .title {
+    margin: 0 calc(29%);
+    max-width: 50%;
+}
+
+
+#intro .container {
+    margin-top: 150px;
+}
+
+main {
+    margin-top: 25px;
+}
+
+main .container .row {
+    margin: 20px 0;
+}
+
+
+.gh-logo {
+    background-color: black;
+    border-radius: 50px;
+    max-width: 40px;
+}
+
+.bio {
+    font-size: 1rem;
+}
+
+img.author {
+    max-width: 70%;
+    float: right;
+}
+
+.blockquote-footer {
+    color: var(--bs-body-color);
+    font-size: 1rem;
+}
+
+#agenda ul li {
+    padding: 20px 0;
+}
+
+#agenda ul li ul li {
+    padding: 0;
+}
+
+

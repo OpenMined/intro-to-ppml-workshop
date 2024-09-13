@@ -1,0 +1,207 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+    <!-- and it's easy to individually load additional languages -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/shell.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
+
+    <script>hljs.highlightAll();</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"
+          rel="stylesheet">
+
+    <!-- Gh Buttons -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EKD4HP4JEX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-EKD4HP4JEX');
+    </script>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+
+    <title>Introduction to Privacy Preserving Machine Learning</title>
+</head>
+<body>
+<header id="intro" class="align-items-center">
+    <div class="row align-items-center justify-content-center">
+        <div class="col-md-12">
+            <div class="head">
+                <h1 class="display-3 title">
+                    Introduction to
+                    <span style="color: #333333">Privacy Preserving</span>
+                    Machine Learning
+                </h1>
+                <img class="logo" alt="Syft Logo"
+                     src="./assets/imgs/OpenMined-Logo-Stacked-Light.png">
+            </div>
+
+        </div>
+    </div>
+</header>
+<main>
+    <div class='container' id="main-content">
+        <section id="about">
+            <div class="row">
+                <div class="col">
+                    <h3><span>Overview</span></h3>
+                    <p>This one-hour live webinar will introduce participants to the fundamentals of
+                        Privacy Preserving Machine Learning (<code>PPML</code>). The session will
+                        introduce key
+                        PPML concepts such as Federated Learning, Differential Privacy, and
+                        Homomorphic Encryption, giving participants a foundational understanding of
+                        how to balance privacy and transparency with the effectiveness of ML models.
+                        During the webinar, attendees will get practical insights into integrating
+                        privacy-preserving techniques into ML workflows using PySyft - an open
+                        source tool for secure and private machine learning.
+                    </p>
+                    <p>
+                        <a href="https://forms.gle/UvCtBS8kh6mCJSyW8"
+                           title="PPML Webinar Registration form" target="_blank">
+                            <strong>Register here</strong>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="learning-goals">
+            <div class="row">
+                <div class="col-md-10">
+                    <h3><span>Objectives</span></h3>
+                    <ol start=''>
+                        <li>Understand the core concepts and the importance of PPML.</li>
+                        <li>Learn the basics of Federated Learning, Differential Privacy, and
+                            Homomorphic Encryption.
+                        </li>
+                        <li>Learn how PySyft enables privacy-preserving Machine learning</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <section id="datetime">
+            <div class="row">
+                <div class="col-md-10">
+                    <h3><span> When &amp; When</span></h3>
+                    <ul>
+                        <li><strong>Date:</strong> Thursday, 14 November 2024</li>
+                        <li><strong>Time:</strong> 5 PM GMT / 6 PM CET / 12 PM EST / 9 AM PST </li>
+                        <li><strong>Duration:</strong> 1 hour</li>
+                        <li><strong>Location:</strong> Online (Information will be sent via email to registrants) </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <section id="audience">
+            <div class="row">
+                <div class="col-md-10">
+                    <h3><span>Target Audience</span></h3>
+                    <p>This webinar is designed for data scientists, AI practitioners, machine
+                        learning engineers, and
+                        developers interested in applying privacy-preserving techniques to their ML
+                        models, especially
+                        those working with sensitive data in domains like healthcare, finance, and
+                        government.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="agenda">
+            <div class="row">
+                <div class="col-md-10">
+                    <h3><span>Webinar Agenda</span></h3>
+                    <ul class="agenda">
+                        <li><strong>Introduction to PPML and PySyft</strong> (10 minutes):
+                            <ul>
+                                <li>Importance of privacy in Machine learning.</li>
+                                <li>Overview of PySyft as a tool for privacy-preserving ML development.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Core PPML Methods</strong> (30 minutes):
+                            <ul>
+                                <li><strong>Federated Learning</strong>: Training models across decentralized data
+                                    sources.
+                                </li>
+                                <li><strong>Differential Privacy</strong>: Adding noise to data to maintain
+                                    individual privacy in ML models.
+                                </li>
+                                <li><strong>Homomorphic Encryption</strong>: Secure computations on encrypted
+                                    data.
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li><strong>PPML in PySyft with Structured Transparency</strong> (10 minutes):
+                            <ul>
+                                <li>PPML in practice using PySyft, and the Structured Transparency framework</li>
+                            </ul>
+                        </li>
+                        <li><strong>Q&amp;A Session</strong> (10 minutes):
+                            <ul>
+                                <li>Addressing participant questions and insights.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="takeaways">
+            <div class="row">
+                <div class="col">
+                    <h3><span>Takeaways</span></h3>
+                    <p>Participants will leave with a solid understanding of PPML, its importance, and how it can be
+                        applied to machine learning or data science workflows.</p>
+                    <p>This webinar is an ideal starting point for professionals seeking hands-on tools like PySyft to
+                        ensure data privacy while leveraging the full potential of machine learning in sensitive
+                        environments.</p>
+                </div>
+            </div>
+        </section>
+        <section id="materials">
+            <div class="row">
+                <div class="col">
+                    <h3><span>Materials</span>
+                        <img src="./assets/imgs/gh-logo.png" class="gh-logo"/></h3>
+                    <p>Materials will be made available on this
+                        <a href="https://github.com/openmined/intro-to-ppml"
+                           title="Intro to PPML Repository" target="_blank">
+                            <strong>Github Repository</strong>
+                        </a>
+                        in due course.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+</body>
+</html>
